@@ -60,7 +60,7 @@
               </div>
             {% endfor %}
           {% endif %}
-          {% block content %}{% endblock %}
+          {% block content %}{% endblock content %}
         </div>
         <div class="col-md-4">
           <div class="content-section" style="background-color: rgba(0, 82, 102, 0.1)">
@@ -71,6 +71,9 @@
                 <li class="list-group-item list-group-item-light"><a href="{% url 'blog-about' %}" style="text-decoration: none; color: gray">About</a></li>
               </ul>
             </p>
+          </div>
+          <div>
+            {% block side %}{% endblock side %}
           </div>
         </div>
         <p>Contact me at: sahasraranjan@gmail.com</p>
