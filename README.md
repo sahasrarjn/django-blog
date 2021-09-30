@@ -1,4 +1,4 @@
-# qua_blog
+# Django Blog
 Qua-Blog
 
 [Qua-Blog (click here)](https://sahasra.pythonanywhere.com)
